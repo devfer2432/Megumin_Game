@@ -176,7 +176,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &282840810
 GameObject:
@@ -244,30 +244,41 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.85, y: 0.54, z: 0}
+  m_LocalRotation: {x: 0.2975096, y: -0, z: -0, w: 0.9547188}
+  m_LocalPosition: {x: 2.1799998, y: 3.17, z: -5.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 317596194}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 34.616, y: 0, z: 0}
 --- !u!1 &317596189 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100048, guid: d68a820ac5980a04ea8e97d58ba790b7, type: 3}
   m_PrefabInternal: {fileID: 562820259}
---- !u!136 &317596192
-CapsuleCollider:
+--- !u!114 &317596190
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317596189}
-  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11538d9fdccff7f47835f42dc6715844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vel: 24.24
+--- !u!135 &317596192
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317596189}
+  m_Material: {fileID: 13400000, guid: 30623a2214263584784234f44fa6f195, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1.91
-  m_Direction: 1
-  m_Center: {x: 0.05, y: 0.98, z: 0}
+  serializedVersion: 2
+  m_Radius: 0.31037188
+  m_Center: {x: 0.02, y: 0.29, z: 0}
 --- !u!54 &317596193
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -283,6 +294,10 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &317596194 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400048, guid: d68a820ac5980a04ea8e97d58ba790b7, type: 3}
+  m_PrefabInternal: {fileID: 562820259}
 --- !u!1001 &562820259
 Prefab:
   m_ObjectHideFlags: 0
@@ -296,7 +311,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: d68a820ac5980a04ea8e97d58ba790b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.3
+      value: -0.588
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: d68a820ac5980a04ea8e97d58ba790b7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -320,7 +335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: d68a820ac5980a04ea8e97d58ba790b7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: d68a820ac5980a04ea8e97d58ba790b7, type: 3}
       propertyPath: m_Controller
@@ -983,14 +998,14 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1013119153}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7bb088e043eef764dbd27f43fbb2f92a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1083,7 +1098,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1357335272
 GameObject:
@@ -1096,6 +1111,7 @@ GameObject:
   - component: {fileID: 1357335275}
   - component: {fileID: 1357335274}
   - component: {fileID: 1357335273}
+  - component: {fileID: 1357335277}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1167,8 +1183,20 @@ Transform:
   m_GameObject: {fileID: 1357335272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.139, y: -2.11, z: -1.789}
-  m_LocalScale: {x: 4.3728905, y: 0.99999976, z: 3.9326997}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1357335277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357335272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 9.999999}
+  m_Center: {x: 0, y: 0, z: 0}

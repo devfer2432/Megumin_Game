@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: d68a820ac5980a04ea8e97d58ba790b7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Dummy01
+    100002: Dummy09
+    100004: Dummy10
+    100006: Dummy11
+    100008: Dummy12
+    100010: Dummy13
+    100012: Dummy14
+    100014: Dummy15
+    100016: Dummy16
+    100018: Dummy17
+    100020: Dummy18
+    100022: Dummy19
+    100024: Dummy20
+    100026: ForeHairBone00
+    100028: ForeHairBone01
+    100030: ForeHairBone02
+    100032: HatBone00
+    100034: HatBone01
+    100036: HatBone02
+    100038: HatBone03
+    100040: LeftHairBone00
+    100042: LeftHairBone01
+    100044: LeftHairBone02
+    100046: LeftHairBone03
+    100048: //RootNode
+    100050: MeguminBody
+    100052: MeguminCape
+    100054: MeguminCapeBone00
+    100056: MeguminCapeBone01
+    100058: MeguminCapeBone02
+    100060: MeguminCapeBone03
+    100062: MeguminCapeBone04
+    100064: MeguminCapeBone05
+    100066: MeguminHair
+    100068: MeguminHand
+    100070: MeguminHat
+    100072: MeguminHead
+    100074: MeguminLeg
+    100076: RightHairBone00
+    100078: RightHairBone01
+    100080: RightHairBone02
+    100082: RightHairBone03
+    100084: ValveBiped.Bip01_Head1
+    100086: ValveBiped.Bip01_L_Calf
+    100088: ValveBiped.Bip01_L_Clavicle
+    100090: ValveBiped.Bip01_L_Finger0
+    100092: ValveBiped.Bip01_L_Finger01
+    100094: ValveBiped.Bip01_L_Finger02
+    100096: ValveBiped.Bip01_L_Finger1
+    100098: ValveBiped.Bip01_L_Finger11
+    100100: ValveBiped.Bip01_L_Finger12
+    100102: ValveBiped.Bip01_L_Finger2
+    100104: ValveBiped.Bip01_L_Finger21
+    100106: ValveBiped.Bip01_L_Finger22
+    100108: ValveBiped.Bip01_L_Finger3
+    100110: ValveBiped.Bip01_L_Finger31
+    100112: ValveBiped.Bip01_L_Finger32
+    100114: ValveBiped.Bip01_L_Finger4
+    100116: ValveBiped.Bip01_L_Finger41
+    100118: ValveBiped.Bip01_L_Finger42
+    100120: ValveBiped.Bip01_L_Foot
+    100122: ValveBiped.Bip01_L_Forearm
+    100124: ValveBiped.Bip01_L_Hand
+    100126: ValveBiped.Bip01_L_Thigh
+    100128: ValveBiped.Bip01_L_Toe0
+    100130: ValveBiped.Bip01_L_UpperArm
+    100132: ValveBiped.Bip01_Neck1
+    100134: ValveBiped.Bip01_Pelvis
+    100136: ValveBiped.Bip01_R_Calf
+    100138: ValveBiped.Bip01_R_Clavicle
+    100140: ValveBiped.Bip01_R_Finger0
+    100142: ValveBiped.Bip01_R_Finger01
+    100144: ValveBiped.Bip01_R_Finger02
+    100146: ValveBiped.Bip01_R_Finger1
+    100148: ValveBiped.Bip01_R_Finger11
+    100150: ValveBiped.Bip01_R_Finger12
+    100152: ValveBiped.Bip01_R_Finger2
+    100154: ValveBiped.Bip01_R_Finger21
+    100156: ValveBiped.Bip01_R_Finger22
+    100158: ValveBiped.Bip01_R_Finger3
+    100160: ValveBiped.Bip01_R_Finger31
+    100162: ValveBiped.Bip01_R_Finger32
+    100164: ValveBiped.Bip01_R_Finger4
+    100166: ValveBiped.Bip01_R_Finger41
+    100168: ValveBiped.Bip01_R_Finger42
+    100170: ValveBiped.Bip01_R_Foot
+    100172: ValveBiped.Bip01_R_Forearm
+    100174: ValveBiped.Bip01_R_Hand
+    100176: ValveBiped.Bip01_R_Thigh
+    100178: ValveBiped.Bip01_R_Toe0
+    100180: ValveBiped.Bip01_R_UpperArm
+    100182: ValveBiped.Bip01_Spine
+    100184: ValveBiped.Bip01_Spine1
+    100186: ValveBiped.Bip01_Spine2
+    100188: ValveBiped.Bip01_Spine4
+    100190: ValveBiped.forward
+    400000: Dummy01
+    400002: Dummy09
+    400004: Dummy10
+    400006: Dummy11
+    400008: Dummy12
+    400010: Dummy13
+    400012: Dummy14
+    400014: Dummy15
+    400016: Dummy16
+    400018: Dummy17
+    400020: Dummy18
+    400022: Dummy19
+    400024: Dummy20
+    400026: ForeHairBone00
+    400028: ForeHairBone01
+    400030: ForeHairBone02
+    400032: HatBone00
+    400034: HatBone01
+    400036: HatBone02
+    400038: HatBone03
+    400040: LeftHairBone00
+    400042: LeftHairBone01
+    400044: LeftHairBone02
+    400046: LeftHairBone03
+    400048: //RootNode
+    400050: MeguminBody
+    400052: MeguminCape
+    400054: MeguminCapeBone00
+    400056: MeguminCapeBone01
+    400058: MeguminCapeBone02
+    400060: MeguminCapeBone03
+    400062: MeguminCapeBone04
+    400064: MeguminCapeBone05
+    400066: MeguminHair
+    400068: MeguminHand
+    400070: MeguminHat
+    400072: MeguminHead
+    400074: MeguminLeg
+    400076: RightHairBone00
+    400078: RightHairBone01
+    400080: RightHairBone02
+    400082: RightHairBone03
+    400084: ValveBiped.Bip01_Head1
+    400086: ValveBiped.Bip01_L_Calf
+    400088: ValveBiped.Bip01_L_Clavicle
+    400090: ValveBiped.Bip01_L_Finger0
+    400092: ValveBiped.Bip01_L_Finger01
+    400094: ValveBiped.Bip01_L_Finger02
+    400096: ValveBiped.Bip01_L_Finger1
+    400098: ValveBiped.Bip01_L_Finger11
+    400100: ValveBiped.Bip01_L_Finger12
+    400102: ValveBiped.Bip01_L_Finger2
+    400104: ValveBiped.Bip01_L_Finger21
+    400106: ValveBiped.Bip01_L_Finger22
+    400108: ValveBiped.Bip01_L_Finger3
+    400110: ValveBiped.Bip01_L_Finger31
+    400112: ValveBiped.Bip01_L_Finger32
+    400114: ValveBiped.Bip01_L_Finger4
+    400116: ValveBiped.Bip01_L_Finger41
+    400118: ValveBiped.Bip01_L_Finger42
+    400120: ValveBiped.Bip01_L_Foot
+    400122: ValveBiped.Bip01_L_Forearm
+    400124: ValveBiped.Bip01_L_Hand
+    400126: ValveBiped.Bip01_L_Thigh
+    400128: ValveBiped.Bip01_L_Toe0
+    400130: ValveBiped.Bip01_L_UpperArm
+    400132: ValveBiped.Bip01_Neck1
+    400134: ValveBiped.Bip01_Pelvis
+    400136: ValveBiped.Bip01_R_Calf
+    400138: ValveBiped.Bip01_R_Clavicle
+    400140: ValveBiped.Bip01_R_Finger0
+    400142: ValveBiped.Bip01_R_Finger01
+    400144: ValveBiped.Bip01_R_Finger02
+    400146: ValveBiped.Bip01_R_Finger1
+    400148: ValveBiped.Bip01_R_Finger11
+    400150: ValveBiped.Bip01_R_Finger12
+    400152: ValveBiped.Bip01_R_Finger2
+    400154: ValveBiped.Bip01_R_Finger21
+    400156: ValveBiped.Bip01_R_Finger22
+    400158: ValveBiped.Bip01_R_Finger3
+    400160: ValveBiped.Bip01_R_Finger31
+    400162: ValveBiped.Bip01_R_Finger32
+    400164: ValveBiped.Bip01_R_Finger4
+    400166: ValveBiped.Bip01_R_Finger41
+    400168: ValveBiped.Bip01_R_Finger42
+    400170: ValveBiped.Bip01_R_Foot
+    400172: ValveBiped.Bip01_R_Forearm
+    400174: ValveBiped.Bip01_R_Hand
+    400176: ValveBiped.Bip01_R_Thigh
+    400178: ValveBiped.Bip01_R_Toe0
+    400180: ValveBiped.Bip01_R_UpperArm
+    400182: ValveBiped.Bip01_Spine
+    400184: ValveBiped.Bip01_Spine1
+    400186: ValveBiped.Bip01_Spine2
+    400188: ValveBiped.Bip01_Spine4
+    400190: ValveBiped.forward
+    2100000: Head
+    2100002: Eye_R
+    2100004: Eye_L
+    2100006: Expression
+    2100008: Hair
+    2100010: Body
+    2100012: Hat
+    2100014: Leg
+    4300000: MeguminHead
+    4300002: MeguminHair
+    4300004: MeguminBody
+    4300006: MeguminHat
+    4300008: MeguminLeg
+    4300010: MeguminHand
+    4300012: MeguminCape
+    7400000: Run Forward
+    9500000: //RootNode
+    13700000: MeguminBody
+    13700002: MeguminCape
+    13700004: MeguminHair
+    13700006: MeguminHand
+    13700008: MeguminHat
+    13700010: MeguminHead
+    13700012: MeguminLeg
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Expression
+    second: {fileID: 2800000, guid: 12e8875ca446c7a478501027f9bc6d69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_Body
+    second: {fileID: 2800000, guid: 86852c887df149d40b1e038d328b6de9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_Staff
+    second: {fileID: 2800000, guid: 26fa7af1fa480c24b86de22cdf7bdaf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_cape
+    second: {fileID: 2800000, guid: 3829420d90deb594cb2c6af333dae4c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_hair
+    second: {fileID: 2800000, guid: 056c7c1a0caa1ba48a449acf96c08551, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_hat
+    second: {fileID: 2800000, guid: c809e2c896260f143974886be880c8eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_head
+    second: {fileID: 2800000, guid: fc6782358c92f304baed4480b07cc8cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Megumin_leg
+    second: {fileID: 2800000, guid: 78fa2094e362eeb43b28f57ec2791005, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iris_L
+    second: {fileID: 2800000, guid: cfac52e88d4a1444c9fc800e5f03f471, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iris_R
+    second: {fileID: 2800000, guid: 7f98f3f61437bf0489f203069ef65dd4, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run Forward
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
